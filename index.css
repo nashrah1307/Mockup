@@ -1,0 +1,601 @@
+* {
+      font-family: 'IBM Plex Serif', serif;
+}
+
+.Navigation {
+      list-style: none;
+      height: auto;
+}
+
+.Navigation nav {
+      margin-left: 1vw;
+      width: 1.12cm;
+}
+
+.link-3 {
+      background-color: rgb(119, 95, 255);
+}
+
+.Navigation .nav-link {
+      width: 1.12cm;
+      padding-left: 8px;
+      padding-right: 8px;
+      border-radius: 10px;
+}
+
+.Navigation .logo {
+      width: 1.3cm;
+      height: 1.3cm;
+      margin-bottom: 30px;
+      margin-left: -6px;
+}
+
+.Navigation .part1 {
+      padding-bottom: 18vw;
+}
+
+.part1 .nav-item {
+      padding-bottom: 1.5vw;
+}
+
+.part2 .nav-item {
+      padding-bottom: 1.5vw;
+}
+
+.nav-item :hover {
+      background-color: rgb(119, 95, 255);
+      color: white;
+      transition: color 0.3s ease;
+}
+
+.divs {
+      display: flex;
+      flex-direction: row;
+}
+
+/* first div */
+
+.first-div {
+      margin-left: 58px;
+      width: 350px;
+      background-color: #f7f7f7;
+      padding: 20px 30px 0 30px;
+}
+
+.first-div .profile-pic {
+      border-radius: 40px;
+      height: 60px;
+      width: 60px;
+      margin-right: 20px;
+      box-shadow: 20px;
+}
+
+.finance-button {
+      background-color: rgb(119, 95, 255);
+      color: white;
+      border-radius: 8px;
+      width: 3.5cm;
+      height: 1.1cm;
+      font-size: 20px;
+      border-color: rgb(119, 95, 255);
+}
+
+.finance {
+      padding-top: 10px;
+      margin-bottom: 20px;
+}
+
+.recent-transactions {
+      padding-top: 15px;
+}
+
+.profile-info p {
+      font-family: 'Open Sans', sans-serif;
+      color: rgb(109, 109, 109);
+}
+
+.finance p {
+      font-family: 'Open Sans', sans-serif;
+      color: rgb(109, 109, 109);
+}
+
+.finance h3 {
+      font-weight: bold;
+}
+
+.finance h6 {
+      font-weight: bold;
+}
+
+.recent-transactions p {
+      font-family: 'Open Sans', sans-serif;
+      color: rgb(109, 109, 109);
+}
+
+.recent-transactions hr {
+      color: rgb(158, 158, 158);
+}
+
+.recent-transactions h6 {
+      font-size: 0.9rem;
+      font-family: 'Open Sans', sans-serif;
+}
+
+.second-div {
+      padding: 25px 45px 30px 50px;
+}
+
+.income-heading p {
+      font-weight: bold;
+      color: rgb(119, 95, 255);
+      margin-bottom: 0;
+}
+
+.income-heading h4 {
+      margin-bottom: 35px;
+}
+
+.income-detail {
+      margin-right: 40px;
+}
+
+.income-detail hr {
+      width: 155.363px;
+      border: 1.3px solid rgb(10, 0, 63);
+}
+
+.income-detail p {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 0.9rem;
+      color: rgb(158, 158, 158);
+}
+
+.income-details {
+      margin-bottom: 50px;
+}
+
+.filters-heading {
+      margin: 0 0 40px 0;
+}
+
+.partition {
+      height: 600px;
+}
+
+.filters-heading p {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 0.7rem;
+      color: rgb(158, 158, 158);
+}
+
+.filters {
+      font-size: 0.8rem;
+      display: flex;
+      flex-direction: row;
+}
+
+.filters label {
+      font-family: 'Open Sans', sans-serif;
+      font-weight: bold;
+      padding-bottom: 20px;
+}
+
+.filters select{
+      border-style: none;
+}
+
+.chart-container {
+      height: 500px;
+      width: 600px;
+}
+
+.circle-progress {
+      padding-left: 40px;
+      display: flex;
+      flex-direction: row;
+}
+
+.container{
+      display: flex;
+      width: 120px;
+      padding: 10px 0 10px 80px;
+      border-radius: 8px;
+      background: #fff;
+      row-gap: 10px;
+      flex-direction: column;
+      align-items: center;
+  }
+  .circular-progress-1{
+      position: relative;
+      height: 100px;
+      width: 100px;
+      border-radius: 50%;
+      background: conic-gradient(#1bdcb9 280deg, #ededed 100deg);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  .circular-progress-2{
+      position: relative;
+      height: 100px;
+      width: 100px;
+      border-radius: 50%;
+      background: conic-gradient(#1bdcb9 342deg, #ededed 100deg);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  .circular-progress-3{
+      position: relative;
+      height: 100px;
+      width: 100px;
+      border-radius: 50%;
+      background: conic-gradient(#1bdcb9 212deg, #ededed 100deg);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  .circular-progress::before{
+      content: "";
+      position: absolute;
+      height: 80px;
+      width: 80px;
+      border-radius: 50%;
+      background-color: #fff;
+  }
+  .progress-value{
+      position: relative;
+      font-size: 1rem;
+      font-weight: 600;
+      color: rgb(82, 82, 82);
+      font-family: 'Open Sans', sans-serif;
+  }
+  .text{
+      font-size: 15px;
+      font-weight: 500;
+      color: #606060;
+      font-family: 'Open Sans', sans-serif;
+  }
+
+
+  /* Third div */
+
+  .box {
+      padding: 0px 20px 10px 0px;
+  }
+
+  .box .slider {
+      height: 30px;
+      width: 210px;
+      align-items: center;
+      place-items: center;
+  }
+
+  .box .slider input {
+      height: 0.2cm;
+      width: 100%;
+      -webkit-appearance: none;
+      outline: none;
+      background: rgb(231, 231, 231);
+      border-radius: 25px;
+  }
+
+  input[type=range]{
+      -webkit-appearance: none;
+  }
+  
+  input[type=range]::-webkit-slider-runnable-track {
+      width: 300px;
+      height: 5px;
+      background: #6f9fe1;
+      border: none;
+      border-radius: 3px;
+  }
+  
+  input[type=range]::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      border: none;
+      height: 25px;
+      width: 25px;
+      border-radius: 50%;
+      border: 0.1px solid rgb(206, 206, 206);
+      background: white;
+      margin-top: -9px;
+  }
+
+  .box .value {
+      margin-left: 230px;
+      font-size: 1.1rem;
+      font-weight: 500;
+      font-family: 'Open Sans', sans-serif;
+      color: rgb(82, 82, 82);
+  }
+
+  .third-div {
+      margin-left: 40px;
+      padding: 30px 20px 0 20px;
+      background-color: #f7f7f7;
+      font-family: 'Open Sans', sans-serif;
+  }
+
+  .third-div-heading,.third-div-subheading {
+      font-family: 'Open Sans', sans-serif;  
+}
+
+  .third-div-heading {
+      padding-bottom: 20px;
+  }
+
+  .third-div-subheading p{
+      font-family: 'Open Sans', sans-serif;
+
+  }
+
+  .rate-value {
+      padding-left: 70px;
+  }
+
+  .rate-value p {
+      font-family: 'Open Sans', sans-serif;
+
+  }
+
+  .topic p {
+      font-family: 'Open Sans', sans-serif;
+
+  }
+
+  .update {
+      width: 5cm;
+      height: 1.2cm;
+      margin-top: 20px;
+      margin-left: 45px;
+      border: none;
+      border-radius: 10px;
+      background-color: rgb(119, 82, 254);
+      color: white;
+      font-size: 1rem;
+      font-weight: 500;
+  }
+
+  .help-link {
+      padding-left: 90px;
+      padding-top: 10px;
+      font-family: 'Open Sans', sans-serif;
+      color: rgb(119, 82, 254);
+      font-weight: bold;
+      font-size: 0.9rem;
+  }
+
+  .vertical {
+      border-left: 3px solid rgb(119, 82, 254);
+      height: 150px;
+      left: 50%;
+      margin: 30px 30px 30px 15px;
+  }
+
+  .end-text {
+      padding-top: 20px;
+      padding-left: 30px;
+      font-family: 'Open Sans', sans-serif;
+  }
+
+  .end-text-1, .end-text-2, .end-text-3, .end-text-4 {
+      font-family: 'Open Sans', sans-serif;
+  }
+
+  .end-text-1 {
+      font-size: 1.1rem;
+      color: rgb(109, 109, 109);
+  }
+
+  .end-text-2 {
+      font-weight: bold;
+  }
+
+  .end-text-3 {
+      font-size: 0.82rem;
+      color: #a9a9a9;
+  }
+
+  .end-text-4 {
+      color: rgb(119, 82, 254);
+      font-weight: bold;
+  }
+
+  .income-detail-1 {
+      display: flex;
+      flex-direction: row;
+  }
+
+  .income-detail-2 {
+      display: flex;
+      flex-direction: row;
+  }
+
+  .dropdown {
+      display: flex;
+      flex-direction: column;
+  }
+
+
+  /* Responsive */
+
+  @media (max-width: 500px) {
+
+      .Navigation {
+            padding-top: 30px;
+      }
+
+      .home-page {
+            display: flex;
+            flex-direction: column;
+      }
+
+      .divs {
+            display: flex;
+            flex-direction: column;
+      }
+
+      .first-div {
+            width: 350px;
+            margin-left: 10px;
+            background-color: white;
+            padding-top: 50px;
+      }
+
+      .first-div .profile-pic {
+            height: 80px;
+            width: 80px;
+            border-radius: 50px;
+      }
+
+      .first-div .profile-info {
+            margin-top: 10px;
+      }
+
+      .first-div .profile-info h2 {
+            font-size: 2rem;
+      }
+
+      .finance {
+            margin-top: 30px;
+      }
+
+      .finance h5 {
+            font-size: 1.4rem;
+      }
+
+      .finance h3 {
+            font-size: 2.3rem;
+            font-weight: bold;
+      }
+
+      .finance h6 {
+            font-size: 1.32rem;
+      }
+
+      .finance-2 {
+            display: flex;
+      }
+
+      .interest {
+           margin-left: -5px; 
+      }
+
+      .finance-button {
+            width: 260px;
+            height: 1.5cm;
+            margin-top: 15px;
+      }
+
+      .recent-transactions {
+            padding-top: 70px;
+      }
+
+      .recent-transactions h5 {
+            margin-bottom: 35px;
+      }
+
+      .recent-transactions h6 {
+            font-weight: bolder;
+      }
+
+      .nav-link {
+            margin-bottom: 20px;
+      }
+
+      .second-div {
+            margin-left: -27px;
+            padding-left: 0;
+            padding-top: 90px;
+            padding-right: 0;
+      }
+      .income-heading p {
+            margin-bottom: 10px;
+      }
+
+      .income-details {
+            display: flex;
+            flex-direction: column;
+      }
+
+      .income-detail-1 {
+            flex-direction: column;
+      }
+
+      .income-detail-2 {
+            margin-top: 10px;
+      }
+
+      .income-detail .goal {
+            width: 350px;
+      }
+
+      .contributions h6 {
+            font-size: 1.3rem;
+            margin-bottom: 20px;
+      }
+
+      .chart-container {
+            height: 400px;
+            width: 360px;
+      }
+
+      .label {
+            padding-right: 40px;
+      }
+
+      .filters {
+            flex-direction: column;
+      }
+
+      .circle-progress {
+            padding-left: 0;
+            margin-left: -45px;
+      }
+
+      .third-div {
+            margin-left: -40px;
+            background-color: white;
+      }
+
+      .label label {
+            font-size: 1.1rem;
+            margin-right: 20px;
+      }
+
+      .label select {
+            font-size: 1.1rem;
+            background-color: white;
+      }
+      container {
+            margin-right: -40px;
+      }
+
+      .third-div .box .slider{
+            width: 300px;
+      }
+
+      .topic {
+            padding-right: 50px;
+      }
+
+      .update {
+            width: 380px;
+            padding-left: 0;
+            margin-left: -10px;
+      }
+
+      .third-div .last-line {
+            width: 350px;
+      }
+
+      .help-link {
+            margin-left: 30px;
+      }
+
+      .vertical {
+            margin-left: 50px;
+      }
+  }
